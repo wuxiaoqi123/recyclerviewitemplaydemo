@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/my_video_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000">
+
+    <VideoView
+        android:id="@+id/my_videoview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <View
+        android:id="@+id/my_video_click"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00ffffff" />
+
+    <ImageView
+        android:id="@+id/my_video_center_playpause_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_play_circle_outline_white_48dp" />
+
+    <LinearLayout
+        android:id="@+id/my_video_play_control_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#88cccccc"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="3dp">
+
+        <ImageView
+            android:id="@+id/my_video_play_pause_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_play_circle_outline_white_24dp" />
+
+        <SeekBar
+            android:id="@+id/my_video_seekbar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/my_video_full_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_fullscreen_white_24dp" />
+    </LinearLayout>
+</RelativeLayout>
