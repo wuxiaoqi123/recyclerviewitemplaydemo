@@ -7,3 +7,9 @@ RecyclerView item 中播放视频的Demo
 	2. 在列表的ViewHolder布局文件中放置一个FragmeLayout，当点击播放按钮时，将SurfaceView添加到FragmentLayout中播放。
 	3. 为RecyclerView设置addOnChildAttachStateChangeListener事件
 	
+	
+## Screenshots
+
+<img width="352" height=“625” src="https://github.com/wuxiaoqi123/recyclerviewitemplaydemo/blob/master/file/jdfw.gif"></img>
+
+	
